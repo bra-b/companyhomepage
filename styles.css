@@ -1,0 +1,285 @@
+/*General Rules*/
+
+html, body, div, span, button, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    background-color: #AEB2BF;
+    color: #403D1A;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #403D1A;
+}
+
+/*Nav*/
+
+nav {
+    border-bottom: 1px solid #403B31;
+    display: flex;
+    justify-content: space-between;
+    height: 7rem;
+    padding: 1.35rem 1rem;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.item-nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: end;
+    gap: .5rem;
+}
+
+nav h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.icon-florist {
+    height: 2.75rem;
+    width: auto;
+}
+
+
+ul.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    gap: 3rem;
+    align-items: end;
+    width: 40%;
+}
+
+.nav li {
+    width: auto;
+}
+
+.nav a {
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Hero*/
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.image-hero {
+    width: 100%;
+    height: 42rem;
+    background-image: url("C:/Projects/company-home-page/images/florist-table.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.text-hero {
+    position: relative;
+    top: 30rem;
+}
+
+.text-hero h2 {
+    font-family: "Qwitcher Grypen", sans-serif;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #403D1A;
+    background-color: transparent;
+}
+
+/*Main*/
+
+.content {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    gap: 1.5rem;
+}
+
+.text {
+    padding: 1rem 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.text p {
+    font-size: 1.25rem;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+.shop {
+    border: 1px solid #40011E;
+    background-color: #40011E;
+    border-radius: 610px;
+    padding: .5rem;
+    width: 11rem;
+}
+
+a.link-button {
+    color: #AEB2BF;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.image-container {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Footer*/
+
+#contact {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #403B31;
+    background-color: #403B31;
+}
+
+#contact a,
+#contact span,
+#contact h3,
+#contact h4 {
+    color: #AEB2BF;
+    background-color: #403B31;
+}
+
+.container-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 2rem 0;
+    background-color: transparent;
+}
+
+.contact-footer {
+    margin-right: 2rem;
+    border-right: 1px solid #AEB2BF;
+    width: 50%;
+    background-color: transparent;
+}
+
+.contact-footer h3 {
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: transparent;
+    
+}
+
+.contact-footer h4 {
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+    background-color: transparent;
+}
+
+.icons img {
+    background-color: transparent;
+}
+
+.columns-footer .column,
+.column ul {
+    background-color: transparent;
+}
+
+.columns-footer {
+    display: flex;
+    justify-content: flex-star;
+    align-items: center;
+    width: 50%;
+    gap: 2rem;
+    background-color: transparent;
+}
+
+.columns-footer span {
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+
+.footer ul {
+    margin-top: .5rem;
+    background-color: transparent;
+}
+
+.footer li {
+    margin-top: .5rem;
+    background-color: transparent;
+}
+
+.nav-footer {
+    font-size: 0.85rem;
+    background-color: transparent;;
+}
+
+/**
+*@author B.Batitucci
+*/
